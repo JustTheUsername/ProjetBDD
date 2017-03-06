@@ -1,6 +1,6 @@
 INSERT INTO clients (`id`,`lastname`,`firstname`,`adress`,`code_postal`,`ville`,`date_naissance`) 
 
-VALUES (1,"Underwood","Emerald","129-7662 Eu Ave","78690","Catemu","1990-09-11"); 
+VALUES (1,"Underwood","Emerald","129-7662 Eu Ave","78690","Catemu","1990-09-11"),
 (2,"Sanford","Stacey","330-630 Nulla Rue","00446","St. Pölten","1999-03-21"),
 (3,"Gaines","Seth","861-2515 Facilisi. Rd.","47599","Habay","1999-03-18"),
 (4,"Walker","Kenneth","Appartement 844-1206 Donec Rue","37862","Frederick","1991-09-28"),
@@ -21,3 +21,24 @@ VALUES ('DELLCM', 'Dell', 'catre mère', '49', '60'),
        ('DELLC', 'Dell', 'clavier', '90', '19'),
        ('HPW', 'HP', 'webcam', '120', '25'),
        ('IBMC', 'IBM', 'casque', '49', '32');
+
+INSERT INTO commandes (numero_commande,id_client,date_commande,type_livraison)
+
+VALUES (NULL,1,'2015-05-03','PST'),
+(NULL,5,'2014-08-23','CHR'),
+(NULL,3,'2010-04-17','UPS'),
+(NULL,2,'2007-02-17','PST');
+
+INSERT INTO type_livraisons (id,type,prix)
+
+VALUES ('PST','La Poste',3.14),
+('CHR','Chronoposte',2.25),
+('UPS','UPS',1.92);
+
+
+INSERT INTO details_commande (numero_commande,code_article)
+VALUES (9,'HPCM'),
+(12,'HPCM'),
+(11,'IBMCM'),
+(9,'HPW'),
+(11,'DELLS');
