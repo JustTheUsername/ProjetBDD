@@ -1,6 +1,6 @@
- 1 )    SELECT * FROM clients;
+﻿ 1 )    SELECT * FROM clients;
 
- 2 )    SELECT * FROM clients WHERE  ville ='Avignon'; 
+ 2 )    SELECT * FROM clients WHERE  ville ='Catemu'; 
 
  3 )    SELECT * FROM commandes WHERE id_client = 5;
 
