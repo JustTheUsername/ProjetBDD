@@ -1,0 +1,23 @@
+INSERT INTO clients (`id`,`lastname`,`firstname`,`adress`,`code_postal`,`ville`,`date_naissance`) 
+
+VALUES (1,"Underwood","Emerald","129-7662 Eu Ave","78690","Catemu","1990-09-11"); 
+(2,"Sanford","Stacey","330-630 Nulla Rue","00446","St. Pölten","1999-03-21"),
+(3,"Gaines","Seth","861-2515 Facilisi. Rd.","47599","Habay","1999-03-18"),
+(4,"Walker","Kenneth","Appartement 844-1206 Donec Rue","37862","Frederick","1991-09-28"),
+(5,"Dillon","Carla","Appartement 764-7918 Dolor, Avenue","48383","Lake Cowichan","1994-10-02"),
+(6,"Allison","August","Appartement 625-8471 Lacus. Ave","33819","Baranello","1996-06-16"),
+(7,"Mercado","Mannix","Appartement 494-8612 Natoque Impasse","97500","Berlare","1990-04-03"),
+(8,"Larsen","Anastasia","3864 Leo, Rue","91613","New Sarepta","1993-04-30"),
+(9,"Leach","Roanna","8337 Cras Rd.","8396O","Anand","1996-10-31"),
+(10,"Reeves","Branden","1382 Diam Avenue","00923","Picture Butte","1991-06-11");
+
+
+INSERT INTO articles (code_article, marque, type, stock, prix_unitaire)
+VALUES ('DELLCM', 'Dell', 'catre mère', '49', '60'),
+       ('DELLBM', 'Dell', 'balette mémoire', '81', '15'),
+       ('IBMCM', 'IBM', 'catre mère', '59', '65'),
+       ('HPCM', 'HP', 'catre mère', '100', '62'),
+       ('DELLS', 'Dell', 'sourie', '89', '15'),
+       ('DELLC', 'Dell', 'clavier', '90', '19'),
+       ('HPW', 'HP', 'webcam', '120', '25'),
+       ('IBMC', 'IBM', 'casque', '49', '32');
